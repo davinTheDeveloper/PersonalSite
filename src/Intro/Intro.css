@@ -1,0 +1,53 @@
+.Intro {
+
+}
+
+.IntroContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 200px;
+    width: auto;
+    font-size: calc(1.5vh + 1.5vw);
+    border: solid;
+    background-color: #9cd4b5;
+    /* background-color: #9bd2e0; */
+}
+
+.typing {
+    background-color: #9cd4b5;
+    /* background-color: #9bd2e0; */
+}
+
+.border {
+    background-color: #f0eac2;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.positionIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.statement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(3.5vh + .5vw);
+    margin-bottom: 50px;
+    font-size: calc(1.5vh + 1.5vw);
+}
+
+
+
+
+  

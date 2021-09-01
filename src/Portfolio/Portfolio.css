@@ -1,0 +1,104 @@
+.PortfolioPage {
+    margin-top: 350px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 100%;
+}
+
+.PortfolioBox {
+    border: solid;
+    margin: 0;
+    background-color: #9cd4b5;
+}
+
+.PortfolioHeader {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    font-size: calc(3vh + 3vw);
+    background-color: #9cd4b5;
+}
+
+.PortfolioSection {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: calc(1.5vh + 1.5vw);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1vh + 1vw);
+    font-style: italic;
+    list-style-type: none;
+    text-decoration-line: none;
+    margin-top: 25px;
+}
+
+.container > li {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.PortProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    font-size: calc(1vh + 1vw);
+}
+
+.project_1 {
+    background-image: url("./matchChars.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 200px;
+    width: 375px;
+    border: solid;
+}
+
+.project_2 {
+    background-image: url("./ngo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 200px;
+    width: 375px;
+    border: solid;
+}
+
+.project_3 {
+    background-image: url("./encode.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 200px;
+    width: 375px;
+    border: solid;
+}
+
+@media only screen and (max-width: 1220px) {
+
+    .PortfolioBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: none;
+    }
+
+    .PortfolioHeader {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .PortProjects {
+        display: flex;
+        flex-direction: column;
+    }
+}
