@@ -25,7 +25,7 @@ function About() {
                 <div className="AboutMe">
                     Here's a little more....
                 </div>
-                <div className="DavinVideo"></div>
+                <div className="DavinVideo">***Under construction***</div>
                 </div>
         </div>
     );
