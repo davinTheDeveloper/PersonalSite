@@ -44,6 +44,7 @@
     background-repeat: no-repeat;
     width: calc(6vh + 6vw);
     height: calc(6vh + 6vw);
+    cursor: pointer;
 }
 
 .linkedinLink {
@@ -53,6 +54,7 @@
     background-repeat:  no-repeat;
     width: calc(6vh + 6vw);
     height: calc(6vh + 6vw);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1250px){

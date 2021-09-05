@@ -86,6 +86,10 @@
     font-size: 1.15rem;
 }
 
+.listSize_React {
+    font-size: 1.15rem;
+}
+
 .centerImg {
     display: flex;
     justify-content: center;
@@ -99,6 +103,7 @@
     height: 200px;
     width: 200px;
     border: solid 5px black;
+    margin-top: 25px;
 }
 
 .skillsContainer {
@@ -130,6 +135,18 @@
     .skillsContainer {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .h_size {
+        text-align: center;
+    }
+    
+    .listSize {
+        text-align: center;
+    }
+
+    .listSize_React {
+        text-align: center;
     }
 
 }

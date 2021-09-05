@@ -43,8 +43,8 @@ function About() {
                         </ul>
                     </div>
                     <div>
-                        <h3 className="h_size">Application/Software Development</h3>
-                        <ul className="listSize" >
+                        <h3 className="h_size">App/Software Development</h3>
+                        <ul className="listSize_React">
                             <li>React</li>
                         </ul>
                     </div>
