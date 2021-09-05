@@ -37,7 +37,7 @@ function Portfolio() {
                 <div className="container">
                 <li>I'm calculated...</li>
                 <div className="project_4">
-                    <a href="https://davinthedeveloper.github.io/Basic-Calculator/" target="_blank" rel="referrer noopener"></a>
+                    <a href="https://davinthedeveloper.github.io/Basic-Calculator/" target="_blank" rel="noreferrer noopener"></a>
                 </div>
                 </div>
                 <br />
