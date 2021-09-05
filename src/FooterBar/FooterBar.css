@@ -1,0 +1,25 @@
+.endBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        height: 100px;
+        width: auto;
+        font-size: calc(1.5vh + 1.5vw);
+        border: solid;
+        background-color: #9cd4b5;
+}
+
+.linkHome {
+    background-color: #9cd4b5;
+    text-decoration: none;
+}
+.linkHome:active, 
+.linkHome:hover,
+.linkHome:visited,
+.linkHome:link {
+    color: black;
+}

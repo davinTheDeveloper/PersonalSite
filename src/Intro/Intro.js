@@ -3,7 +3,7 @@ import './Intro.css';
 
 function Intro() {
     return (
-        <div className="Intro">
+        <div className="Intro" id="/">
             <div className="IntroContainer">
                 <div className="typing">Davin Henrik</div>
             </div>

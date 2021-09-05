@@ -5,6 +5,7 @@ import Intro from './Intro/Intro';
 import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
 import Contact from './Contact/Contact';
+import FooterBar from './FooterBar/FooterBar';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Portfolio />
         <Contact />
+        <FooterBar />
       </Route>
     </div>
     </Switch>

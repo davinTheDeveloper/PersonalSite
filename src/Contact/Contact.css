@@ -6,15 +6,15 @@
 }
 
 .ContactBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid;
-    margin: 0;
     background-color: #9cd4b5;
+    height: 100%;
 }
 
 .ContactHeader {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 300px;
     font-size: calc(3vh + 3vw);
     background-color: #9cd4b5;
 }
@@ -22,16 +22,53 @@
 .ContactSection {
     display: flex;
     flex-direction: column;
-    width: auto;
-    font-size: calc(1.5vh + 1.5vw);
+    height: 100%;
+    margin-top: 25px;
+    font-size: calc(1.5vh + 1.5vw);  
 }
 
-@media only screen and (max-width: 1200px){
+.contactLinks {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    margin-top: 150px;
+}
 
-    .ContactHeader {
-        margin-right: 0;
-        margin-left: 35px;
-        justify-content: flex-start;
+.emailLink {
+    background-image: url('./gmail.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: calc(6vh + 6vw);
+    height: calc(6vh + 6vw);
+}
+
+.linkedinLink {
+    background-image: url('./linkedin.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat:  no-repeat;
+    width: calc(6vh + 6vw);
+    height: calc(6vh + 6vw);
+}
+
+@media only screen and (max-width: 1250px){
+
+    .ContactPage {
+        margin-top: 50px;
+    }
+
+    .contactLinks {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .emailLink {
+        margin-top: 15px;
+        margin-bottom: 25px;
     }
 }
     

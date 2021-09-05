@@ -1,5 +1,5 @@
 .AboutPage {
-    margin-top: 350px;
+    margin-top: 300px;
     margin-left: 25px;
     margin-right: 25px;
     height: 100%;
@@ -7,14 +7,13 @@
 
 .AboutBox {
     border: solid;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #9cd4b5;
 }
 
 .AboutHeader {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 300px;
     font-size: calc(3vh + 3vw);
     background-color: #9cd4b5;
 }
@@ -27,6 +26,7 @@
 }
 
 .AboutTitle {
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -41,26 +41,29 @@
     justify-content: flex-start;
 }
 
+
+
+
 /* -----------About Me Staircase List -------------*/
 
 .li_1 {
-    margin-left: 23%;   
+    margin-left: 15%;   
 }
 
 .li_2 {
-    margin-left: 33%;
+    margin-left: 25%;
 }
 
 .li_3 {
-    margin-left: 45%;
+    margin-left: 43%;
 }
 
 .li_4 {
-    margin-left: 60%;
+    margin-left: 56%;
 }
 
 .li_5 {
-    margin-left: 75%;
+    margin-left: 74%;
 }
 
 /* -------------- Video Section ----------------*/
@@ -69,50 +72,64 @@
     font-size: calc(1.5vh + 1.5vw);
 }
 
-.DavinVideo {
-    height: 300px;
-    margin: 50px 0 0 0;
+.Container_2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.h_size {
+    font-size: 1.25rem;
+}
+
+.listSize {
+    font-size: 1.15rem;
+}
+
+.centerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.davinImage_2 {
+    background-image: url("./davin.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
     border: solid 5px black;
 }
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skillsContainer > div {
+    margin: 5px;
+}
+
+
 
 @media only screen and (max-width: 1200px) {
     
     .AboutPage {
         margin-top: 150px;
     }
-    
-    .AboutBox {
+
+    .Container_2 {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: none;
-    }
-
-    .AboutHeader {
-        display: flex;
-        justify-content: flex-start;
-        
         
     }
 
-    .li_1 {
-        margin-left: 2vw;   
-    }
-    
-    .li_2 {
-        margin-left: 10vw;
-    }
-    
-    .li_3 {
-        margin-left: 20vw;
-    }
-    
-    .li_4 {
-        margin-left: 30vw;
-    }
-    
-    .li_5 {
-        margin-left: 40vw;
+    .skillsContainer {
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
