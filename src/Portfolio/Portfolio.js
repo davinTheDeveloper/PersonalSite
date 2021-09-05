@@ -9,7 +9,7 @@ function Portfolio() {
             <h2 className="PortfolioHeader">Portfolio</h2>
             </div>
             <div className="PortfolioSection">
-            <div>/* -- When I say I like to develop... -- */</div>
+            <div>(/* -- When I say I like to develop... -- */)</div>
             <div>
                 <div className="PortProjects">
                     <div className="container">

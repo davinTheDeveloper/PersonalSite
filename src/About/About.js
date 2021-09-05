@@ -11,7 +11,7 @@ function About() {
                 <h2 className="AboutHeader">About</h2>
             </div>
             <div className="AboutSection">
-                <div className="AboutTitle">/* -- So....what is a Davin Henrik? -- */</div>
+                <div className="AboutTitle">(/* -- So....what is a Davin Henrik? -- */)</div>
                 <div className="davinImage">
                 </div>
                 <ul>
@@ -24,7 +24,7 @@ function About() {
             </div>
             <div className="AboutVideoContainer">
                 <div className="AboutMe">
-                    /* -- Here's a little more.... -- */
+                    (/* -- Here's a little more.... -- */)
                 </div>
                 <div className="Container_2">
                     <div>
