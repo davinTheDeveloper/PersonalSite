@@ -59,8 +59,11 @@
     font-size: calc(1vh + 1vw);
 }
 
-.project_1 {
-    background-image: url("./matchChars.png");
+.project_1,
+.project_2,
+.project_3,
+.project_4,
+.project_5 {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -70,46 +73,29 @@
     border: solid;
     margin: 5px;
     cursor: pointer;
+}
+
+.project_1 {
+    background-image: url("./matchChars.png");
 }
 
 .project_2 {
     background-image: url("./ngo.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-    height: 200px;
-    width: 300px;
-    border: solid;
-    margin: 5px;
-    cursor: pointer;
 }
 
 .project_3 {
     background-image: url("./encode.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-    height: 200px;
-    width: 300px;
-    border: solid;
-    margin: 5px;
-    cursor: pointer;
 }
 
 .project_4 {
     background-image: url("./calc.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-    height: 200px;
-    width: 300px;
-    border: solid;
-    margin: 5px;
-    cursor: pointer;
 }
+
+.project_5 {
+    background-image: url("./learnWords.png");
+}
+
+
 
 .centerLink {
     display: flex;
