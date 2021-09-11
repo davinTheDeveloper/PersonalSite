@@ -14,40 +14,29 @@ function Portfolio() {
                     <div className="PortProjects">
                         <div className="container">
                             <li>I enjoy solving problems</li>
-
-                            <div className="project_1">
-                                <a href='https://davinthedeveloper.github.io/compareCharacters.github.io/' target="_blank" rel="noreferrer noopener"> </a>
-                            </div>
+                                <a className="project_1" href='https://davinthedeveloper.github.io/compareCharacters.github.io/' target="_blank" rel="noreferrer noopener"> </a>
                         </div>
                         <br />
                         <div className="container">
                             <li>I am passionate about helping people</li>
-                            <div className="project_2">
-                                <a href="https://davinthedeveloper.github.io/nonprofitTemplate/" target="_blank" rel="noreferrer noopener"> </a>
-                            </div>
+                                <a className="project_2" href="https://davinthedeveloper.github.io/nonprofitTemplate/" target="_blank" rel="noreferrer noopener"> </a>
                         </div>
                         <br />
                         <div className="container">
                             <li>I learn by doing</li>
-                            <div className="project_3">
-                                <a href="https://davinthedeveloper.github.io/decoderCyphers/" target="_blank" rel="noreferrer noopener"></a>
-                            </div>
+                                <a className="project_3" href="https://davinthedeveloper.github.io/decoderCyphers/" target="_blank" rel="noreferrer noopener"></a>
                             </div>
                         </div>
                         <div className="PortProjects">
                         <br />
                         <div className="container">
                             <li>I'm calculated...</li>
-                            <div className="project_4">
-                                <a href="https://davinthedeveloper.github.io/Basic-Calculator/" target="_blank" rel="noreferrer noopener"></a>
-                            </div>
+                                <a className="project_4" href="https://davinthedeveloper.github.io/Basic-Calculator/" target="_blank" rel="noreferrer noopener"></a>
                         </div>
                         <br />
                         <div className="container">
                             <li>I make games for learning...</li>
-                            <div className="project_5">
-                                <a href="https://davinthedeveloper.github.io/wordGames/" target="_blank" rel="noreferrer noopener"></a>
-                            </div>
+                                <a className="project_5" href="https://davinthedeveloper.github.io/wordGames/" target="_blank" rel="noreferrer noopener"></a>
                         </div>
                         <br />
                     </div>
