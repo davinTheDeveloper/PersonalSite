@@ -10,12 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9cd4b5;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .PortfolioHeader {
     font-size: calc(3vh + 3vw);
-    background-color: #9cd4b5;
+    background: transparent;
 }
 
 .PortfolioSection {

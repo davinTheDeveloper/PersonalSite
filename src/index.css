@@ -4,13 +4,14 @@
 
 * {
   font-family: 'Hina Mincho', serif;
-  background:#f0eac2;
   /* border: solid 5px red;
   box-sizing: border-box; */
+  background: #fdfeff;
 }
 
-html, body {
+html, body, #root, .App {
   scroll-behavior: smooth;
+  height: auto;
   margin: 0;
   scroll-behavior: smooth;
   transition-duration: 8s;

@@ -1,8 +1,7 @@
 .AboutPage {
-    margin-top: 300px;
-    margin-left: 25px;
-    margin-right: 25px;
-    height: 100%;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .AboutBox {
@@ -10,17 +9,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9cd4b5;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .AboutHeader {
     font-size: calc(3vh + 3vw);
-    background-color: #9cd4b5;
+    background: transparent;
 }
 
 .AboutSection {
+    margin-top: 25px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: auto;
     font-size: calc(1.5vh + 1.5vw);
 }
@@ -31,7 +33,8 @@
 }
 
 .davinImage {
-    background-image: url("./self.jpg");
+    float: left;
+    background-image: url("./davin.jpeg");
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -41,81 +44,41 @@
     justify-content: flex-start;
 }
 
-
-
-
-/* -----------About Me Staircase List -------------*/
-
-.li_1 {
-    margin-left: 15%;   
-}
-
-.li_2 {
-    margin-left: 25%;
-}
-
-.li_3 {
-    margin-left: 43%;
-}
-
-.li_4 {
-    margin-left: 56%;
-}
-
-.li_5 {
-    margin-left: 74%;
-}
-
 /* -------------- Video Section ----------------*/
 
 .AboutMe {
     font-size: calc(1.5vh + 1.5vw);
 }
 
-.Container_2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-
-.h_size {
-    font-size: 1.25rem;
-}
-
-.listSize {
-    font-size: 1.15rem;
-}
-
-.listSize_React {
-    font-size: 1.15rem;
-}
-
-.centerImg {
+.imageControl {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30%;
 }
 
-.davinImage_2 {
-    background-image: url("./davin.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    width: 200px;
-    border: solid 5px black;
-    margin-top: 25px;
-}
-
-.skillsContainer {
+.listControl {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
 }
 
-.skillsContainer > div {
-    margin: 5px;
+.listContHeight {
+    height: 100%;
 }
 
+.h_size {
+    height: 100%;
+    font-size: 1.75rem;
+    text-shadow: .5px .5px 1px grey;
+}
+
+.listSize {
+    height: 100%;
+    font-size: 1.25rem;
+    text-shadow: .5px .5px 1px grey;
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -124,17 +87,13 @@
         margin-top: 150px;
     }
 
-    .Container_2 {
-        display: flex;
+    .AboutSection {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
     }
 
-    .skillsContainer {
-        flex-direction: column;
-        justify-content: center;
+    .listContHeight {
+        height: 100%;
     }
 
     .h_size {
@@ -142,10 +101,6 @@
     }
     
     .listSize {
-        text-align: center;
-    }
-
-    .listSize_React {
         text-align: center;
     }
 

@@ -4,7 +4,7 @@ import './FooterBar.css';
 function FooterBar() {
     return (
         <div className="endBar">
-            <div>
+            <div className="clearBG">
                 <a href="#/" className="linkHome">Top</a>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Landing from './Landing/Landing';
 import Intro from './Intro/Intro';
 import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
@@ -13,6 +14,9 @@ function App() {
       <Switch>
     <div className="App">
       <Route exact path="/"> 
+      <Landing />
+      </Route>
+      <Route path="/Home">
         <Intro />
         <About />
         <Portfolio />

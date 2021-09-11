@@ -10,17 +10,19 @@
     width: auto;
     font-size: calc(1.5vh + 1.5vw);
     border: solid;
-    background-color: #9cd4b5;
-    /* background-color: #9bd2e0; */
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .typing {
-    background-color: #9cd4b5;
-    /* background-color: #9bd2e0; */
+    background: transparent;
+    font-size: calc(2vh + 3vw);
+}
+
+.mainPoint {
+    text-shadow: 2px 2px 4px grey;
 }
 
 .border {
-    background-color: #f0eac2;
     height: 35px;
     width: auto;
     display: flex;
@@ -42,9 +44,12 @@
     margin-top: calc(1vh + .5vw);
     margin-bottom: 50px;
     font-size: calc(1.5vh + 1.5vw);
+    text-shadow: .5px .5px 1px grey;
 }
 
-
+.descriptions {
+    text-shadow: .5px .5px 1px grey;
+}
 
 
   

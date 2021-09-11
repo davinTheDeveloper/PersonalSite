@@ -16,7 +16,7 @@ function Intro() {
                 I want to work with YOU! 
                 </div>
                 <div className="descriptions">Freelancers, Startups, Established Businesses, & Non-Profits. Let's develop
-                new and innovative products. I want to help you reach success.
+                new and innovative products together! I want to help you reach success.
             </div>
         </div>
     )

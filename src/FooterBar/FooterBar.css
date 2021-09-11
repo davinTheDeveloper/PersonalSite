@@ -10,16 +10,17 @@
         width: auto;
         font-size: calc(1.5vh + 1.5vw);
         border: solid;
-        background-color: #9cd4b5;
+        background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
-.linkHome {
-    background-color: #9cd4b5;
-    text-decoration: none;
+.clearBG {
+    background: transparent;
 }
 .linkHome:active, 
 .linkHome:hover,
 .linkHome:visited,
 .linkHome:link {
     color: black;
+    background: transparent;
+    text-decoration: none;
 }

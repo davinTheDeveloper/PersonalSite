@@ -10,7 +10,7 @@ function Contact() {
             <h2 className="ContactHeader">Contact</h2>
         </div>
         <div className="ContactSection">
-            <div>(/* -- Thanks for visiting... -- */)</div>
+            <div>Thanks for visiting...</div>
             </div>
         <div className="contactLinks">
             <li className="emailLink">
